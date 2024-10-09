@@ -48,7 +48,7 @@ export default function App() {
   });
 
   if (!fontsLoaded) {
-    return <Text>loading</Text>;
+    return <Text>loading..</Text>;
   }
 
   return <AppNavigation />;
