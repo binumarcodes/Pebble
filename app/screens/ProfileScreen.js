@@ -80,7 +80,7 @@ export default function ProfileScreen({ navigation }) {
             <Dialog.Button label="OK" style={styles.popupOK} onPress={handleCancel}/>
           </Dialog.Container>
       </TouchableOpacity>
-      <TouchableOpacity style={styles.emergencyButton} onPress={() => navigation.navigate('Emergency')}>
+      <TouchableOpacity style={styles.emergenccyButton} onPress={() => navigation.navigate('Emergency')}>
           <Text style={styles.emergencyText}>EMERGENCY</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.profileButton} onPress= {() => navigation.navigate('Saved')}>
@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
     fontSize: 30,
     opacity: 0.8
   },
-  emergencyButton: {
+  emergenccyButton: {
     width: '90%',
     height: 52,
     marginBottom: 32,
